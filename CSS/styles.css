@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: black;
+    font-family: "Edu AU VIC WA NT Hand", cursive;
+}
+
+.card {
+    width: 600px;
+    margin: 100px auto;
+    background: white;
+}
+
+.header {
+    display: flex;
+    padding: 10px;
+}
+
+.header img {
+    height: 70px;
+}
+
+.header h1 {
+    width: 100%;
+}
+
+.body {
+    display: flex;
+}
+
+.body .left,
+.body .right {
+    width: 50%;
+    padding: 0 10px;
+}
+
+.send-btn {
+    background-color: rgba(128, 128, 128, 0.541);
+    margin-bottom: 5%;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
